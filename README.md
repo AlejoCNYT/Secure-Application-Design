@@ -5,6 +5,7 @@ Author: You ✨ • Last updated: 2025-10-02 (America/Bogotá)
 ---
 
 ## 1) What we did / Lo que hicimos
+<img width="936" height="223" alt="imagen" src="https://github.com/user-attachments/assets/28d6b7f3-e966-47ab-bd9a-d02641042c4c" />
 
 - **Created an SSH key pair** to access the instance.
 - **Created a Security Group** (SG) in the **default VPC**.
