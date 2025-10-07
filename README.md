@@ -112,6 +112,9 @@ aws ec2 authorize-security-group-ingress --region "$REGION" \
 ---
 
 ## 6) Ensure public subnet / Asegurar subred pública
+<img width="1859" height="691" alt="imagen" src="https://github.com/user-attachments/assets/5c3c5790-e721-4a14-a34b-9ce5e7f37aa2" />
+<img width="1871" height="463" alt="imagen" src="https://github.com/user-attachments/assets/35812d3f-bdbb-47d5-b508-307240682b88" />
+<img width="1000" height="299" alt="imagen" src="https://github.com/user-attachments/assets/8e3a8c5e-c5cc-4d85-88ad-a181c419f82a" />
 
 ```bash
 # Pick a public subnet (MapPublicIpOnLaunch=true)
@@ -130,9 +133,14 @@ if [ -z "$SUBNET_ID" ] || [ "$SUBNET_ID" = "None" ]; then
 fi
 
 echo "SUBNET_ID=$SUBNET_ID"
+
+<img width="779" height="360" alt="imagen" src="https://github.com/user-attachments/assets/0dc66d8c-47a4-407f-a0e9-1bf64455b517" />
+<img width="1318" height="1022" alt="imagen" src="https://github.com/user-attachments/assets/4523e77c-d39c-4fc5-94cf-08ef3b4c6216" />
+
 ```
 
 ---
+<img width="1288" height="483" alt="imagen" src="https://github.com/user-attachments/assets/77fe4e66-db8d-4b6b-a01f-edda0a5171a5" />
 
 ## 7) Latest AL2023 AMI via SSM / Última AMI AL2023 vía SSM
 
@@ -264,6 +272,7 @@ sudo systemctl restart httpd
     --query 'InstanceStatuses[0].{Sys:InstanceStatus.Status,Inst:InstanceState.Name,Events:Events}'
   ```
 - **Retry:** Launch again in a **public subnet** with `AssociatePublicIpAddress=true`. If capacity, choose a **different AZ** (another subnet).
+<img width="1099" height="492" alt="imagen" src="https://github.com/user-attachments/assets/93132393-ff39-421a-8c02-23351f302737" />
 
 ### C) No public IP assigned
 - Use a **public subnet** (MapPublicIpOnLaunch=true) or the **network-interfaces** block with `AssociatePublicIpAddress=true`.  
@@ -280,6 +289,8 @@ sudo systemctl restart httpd
 ---
 
 ## 13) Cleanup / Limpieza
+<img width="830" height="732" alt="imagen" src="https://github.com/user-attachments/assets/5e3d3180-27e9-4b73-a16e-a3f455f4b3cd" />
+<img width="650" height="439" alt="imagen" src="https://github.com/user-attachments/assets/1652ed3d-2898-4f9c-a05b-09b376203f92" />
 
 ```bash
 # Terminate instance
