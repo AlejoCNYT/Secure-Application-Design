@@ -32,6 +32,7 @@ export AWS_PAGER=""
 ---
 
 ## 3) Set variables / Definir variables
+<img width="1877" height="675" alt="imagen" src="https://github.com/user-attachments/assets/57c1b210-7e0f-48bc-87bb-24ce46d82cf6" />
 
 ```bash
 # Region & project
