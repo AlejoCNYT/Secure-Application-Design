@@ -342,6 +342,9 @@ Resources:
 aws cloudformation deploy --region "$REGION" --template-file al2023.yml \
   --stack-name al2023-stack --capabilities CAPABILITY_NAMED_IAM
 ```
+<img width="1269" height="690" alt="imagen" src="https://github.com/user-attachments/assets/2a06d82e-ccd3-4368-8c6f-6aff0ce43a5e" />
+<img width="1292" height="663" alt="imagen" src="https://github.com/user-attachments/assets/3453dafa-7f75-4570-bf88-b02b4cedcbb1" />
+<img width="945" height="248" alt="imagen" src="https://github.com/user-attachments/assets/ec218b4f-f098-4740-8ddd-d9451870166e" />
 
 ---
 
