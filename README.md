@@ -357,28 +357,6 @@ rm -f ~/.ssh/${KEY_NAME}.pem
 
 ---
 
-## 14) Rubric mapping / Mapeo a la rúbrica
-
-### Class Work (50%)
-- **Participation & Collaboration (20%)** — Use the **discussion prompts** below to drive design choices; contribute code via PRs.
-- **Hands‑on Lab Performance (30%)**
-  - Deploy **two EC2 instances** (Apache + Spring) using this README.
-  - **Apache** serves the client; **Spring** exposes HTTPS REST.
-  - **TLS** configured on **both**; sample **login** uses **hashed passwords**.
-  - **Let’s Encrypt** certs generated/installed on both servers.
-  - **All code + README + screenshots** pushed to GitHub.
-
-### Homework (50%)
-- **Application Architecture Design (25%)**
-  - Include a **design doc** (one‑pager) in your repo explaining the topology, domains, ports, and trust boundaries.
-- **Security Implementation (15%)**
-  - Demo video hitting **HTTPS endpoints** end‑to‑end; show **BCrypt** hashes and denied access on wrong creds.
-- **Final Deliverables (10%)**
-  - **GitHub repo** with source code, this **README**, the **architecture overview**, and **screenshots**.
-  - **Short video**: deployment + explanation of security features.
-
----
-
 ## 17) Troubleshooting / Solución de problemas
 
 - `Invalid id: "None"` → variable vacía: asegúrate de capturar `INSTANCE_ID` del `run-instances`.  
