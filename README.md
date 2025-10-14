@@ -346,6 +346,9 @@ aws cloudformation deploy --region "$REGION" --template-file al2023.yml \
 <img width="1292" height="663" alt="imagen" src="https://github.com/user-attachments/assets/3453dafa-7f75-4570-bf88-b02b4cedcbb1" />
 <img width="945" height="248" alt="imagen" src="https://github.com/user-attachments/assets/ec218b4f-f098-4740-8ddd-d9451870166e" />
 
+<img width="582" height="233" alt="imagen" src="https://github.com/user-attachments/assets/14ac751e-e648-45b9-831c-075487999659" />
+<img width="605" height="148" alt="imagen" src="https://github.com/user-attachments/assets/8dd7a459-0319-49ef-a48f-8799dbc06e4d" />
+
 ---
 
 ### End / Fin ✅
